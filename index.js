@@ -8,7 +8,7 @@ newsElement.style.backgroundColor = 'white';
 newsElement.style.maxWidth = '60rem';
 
 const titleElement = document.querySelector('h1');
-titleElement.className = 'news__title';
+titleElement.classList.add ('news__title');
 titleElement.textContent = 'Aktuální novinky';
 
 const firstNewsElement = document.getElementById('zprava1');
